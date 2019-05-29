@@ -6,7 +6,6 @@ def decision(probability):
 
 def rand_graph(n, p):
   randomGraph = {}
-  print(decision(0.5))
   for i in range(0, n):
     randomGraph[i] = []
 
